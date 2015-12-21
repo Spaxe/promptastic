@@ -38,6 +38,23 @@ LIGHTER_GOLD = 178
 
 BROWN = 130
 
+ON_GREY00 = 0
+ON_GREY01 = 238
+ON_GREY02 = 239
+ON_GREY03 = 59
+ON_GREY04 = 145
+ON_GREY05 = 152
+ON_GREY06 = 188
+ON_GREY07 = 15
+ON_RED = 203
+ON_ORANGE = 209
+ON_YELLOW = 221
+ON_GREEN = 114
+ON_TEAL = 73
+ON_BLUE = 68
+ON_PURPLE = 176
+ON_BROWN = 137
+ON_WHITE = 15
 
 def foreground(color):
     return '\[$(tput setaf {})\]'.format(color)

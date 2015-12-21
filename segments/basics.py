@@ -7,10 +7,8 @@ from utils import colors, glyphs
 class NewLine(Segment):
     text = '\r\n'
 
-
 class Root(Segment):
     text = '\\$ '
-
 
 class Divider(Segment):
     text = glyphs.DIVIDER

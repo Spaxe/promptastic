@@ -67,7 +67,7 @@ class Time(Segment):
     fg = colors.foreground(theme.TIME_FG)
 
     def init(self):
-        self.text = glyphs.TIME + ' ' + str(time.strftime("%H:%M:%S"))
+        self.text = str(time.strftime("%H:%M:%S"))
 
 
 class UserAtHost(Segment):

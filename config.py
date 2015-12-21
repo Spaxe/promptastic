@@ -9,7 +9,7 @@ PATCHED_FONTS = True
 # The theme defines the colors used to draw individual segments.
 # Themes are collected in the `themes` directory. Their names match their file name (w/o the file
 # extension .py).
-THEME = 'default'
+THEME = 'oceanic_next'
 
 # Segments are the single elements which compose the Bash shell prompt.
 # Enable or disable these segments to customize what you see on the shell prompt.
